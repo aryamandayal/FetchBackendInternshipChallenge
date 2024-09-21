@@ -14,7 +14,7 @@ Type in the following command into your terminal:
 ### Step 3: Install Dependencies
 Navigate to the project folder with this command:
 
-`cd FetchInternshipChallenge`
+`cd FetchInternshipChallenge/`
 
 Run this command to install the necessary `express` and `body-parser` packages:
 
