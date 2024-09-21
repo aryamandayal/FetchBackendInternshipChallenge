@@ -1,0 +1,31 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+   I chose to use Node.js and Express.js for this coding exercise because I'm most familiar with this tech stack
+   and it is commonly used to build REST APIs. Express is a framework that allows for development of server side apps, and 
+   body-parser is a library used for handling incoming JSON requests. 
+
+2. What are the advantages and disadvantages of your solution?
+
+   Advantages:
+   - The code is designed to be simple to read, maintain, and make future changes to due to the way I've structured it with Node.js and Express.
+   - The sorting of transactions by timestamp ensures that points are spent in the correct order, starting with the oldest first.
+   - My solution is able to efficiently track balances across multiple payers and prevents payers' balances from going negative.
+
+   Disadvantages:
+   - The performance and runtime could degrade if the number of transactions grows significantly since my solution currently iterates 
+     over all transactions to spend points.
+   - My current solution assumes a single user. Expanding this to handle multiple users would require adding user 
+     authentication and account separation.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+   One of my favorite projects thus far has been Resify, a web app I created along with a team of 4 at the IrvineHacks hackathon
+   at UC Irvine earlier this year. The premise of the app was to prevent student housing rental scams from individuals online who
+   falsely claim to own property to rent for students looking for off-campus housing at universities and steal deposit funds from them.
+   One major challenge I experienced working in a team environment was getting each team member's components of the project to work together,
+   as at first, we all worked on different parts such as the frontend, API implementations, database, etc. separately and when we came together
+   to run our code we were facing lots of dependency issues. Especially since we were under a tight schedule, in that we had 48 hours from
+   start to finish for our project at the hackathon, we faced difficulties initially. I found that the solution to this was having clear communication 
+   between team members as we worked on each part of the project. After ensuring we were all on the same page on how we were implementing
+   things and redoing several aspects of our project, we were able to get the code to function as expected, and our project ended up winning
+   first place in our selected category at the event.
